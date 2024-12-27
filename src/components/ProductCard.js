@@ -13,7 +13,7 @@ const ProductCard = ({ product }) => {
       <img src={product.image} alt={product.title} className="h-48 mx-auto mb-4 object-contain" />
       <div className="flex-1 flex flex-col gap-2">
         <h3 className="text-lg font-bold text-center">{product.title}</h3>
-        <p className="text-center">${product.price}</p>
+        <p className="text-center">₹{product.price}</p>
       </div>
       <div className="mt-4 flex justify-center items-center gap-4">
   <Link

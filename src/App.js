@@ -37,7 +37,6 @@ const App = () => {
                 <Route path="/wishlist" element={<PrivateRoute component={Wishlist} />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/signup" element={<CreateAccount />} /> {/* Add the SignUp route */}
-               
               </Routes>
             </main>
           
