@@ -13,6 +13,8 @@ import CreateAccount from './pages/CreateAccount';
 
 
 
+
+
 // Higher-order component for private routes
 const PrivateRoute = ({ component: Component }) => {
   const { isAuthenticated } = useAuth();
